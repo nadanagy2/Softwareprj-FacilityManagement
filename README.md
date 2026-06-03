@@ -1,2 +1,3 @@
 # Softwareprj-FacilityManagement
-CampusCare is a full-stack mobile app for reporting and managing campus facility issues. Built with React Native (Expo) and Node.js/Express, it features role-based dashboards for community members, facility managers, and workers, with JWT authentication and a PostgreSQL database managed via Prisma ORM.
+CampusCare is a mobile facility management system built with React Native (Expo) and a Node.js/Express backend. Community members can submit maintenance issues (electrical, plumbing, cleaning, etc.) with photos and location details. Facility managers can view all issues, assign workers, update statuses, and close or delete tickets. Workers see only their assigned tasks and can mark them as in-progress or resolved.
+Built with role-based authentication using JWT, a PostgreSQL database managed through Prisma ORM, and a RESTful API with rate limiting and security middleware.
